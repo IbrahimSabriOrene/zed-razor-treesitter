@@ -75,16 +75,12 @@
 ; ==================== CONTROL STRUCTURES ====================
 [
   "@if"
-  "@else"
   "@foreach"
   "@for"
   "@while"
   "@do"
   "@switch"
-  "@case"
   "@try"
-  "@catch"
-  "@finally"
   "@using"
   "@lock"
 ] @keyword.control
@@ -102,20 +98,19 @@
 
 (directive_functions
   "{" @punctuation.bracket
-  "}" @punctuation.bracket
-  (csharp_code) @embedded)
+  (csharp_code) @embedded
+  "}" @punctuation.bracket)
 
 (directive_code
   "{" @punctuation.bracket
-  "}" @punctuation.bracket
-  (csharp_code) @embedded)
+  (csharp_code) @embedded
+  "}" @punctuation.bracket)
 
 (csharp_code) @embedded
 
 ; ==================== EXPRESSIONS ====================
 (explicit_expression
-  "@" @operator
-  "(" @punctuation.bracket
+  "@(" @operator
   (csharp_expression) @embedded
   ")" @punctuation.bracket)
 
@@ -127,7 +122,6 @@
 (razor_delegate
   "@" @operator
   "async" @keyword
-  "delegate" @keyword
   "=>" @operator)
 
 (parameter_list) @variable.parameter
