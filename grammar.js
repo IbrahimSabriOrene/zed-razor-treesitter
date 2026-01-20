@@ -447,7 +447,7 @@ module.exports = grammar({
       seq('{', optional($.csharp_code), '}')
     )),
     
-    csharp_expression: $ => /[^)}\n;]*/,
+    csharp_expression: $ => /[^\n;){]+/,
     
     csharp_member_access: $ => /[a-zA-Z_][a-zA-Z0-9_]*(\.[a-zA-Z_][a-zA-Z0-9_]*)*/,
     
