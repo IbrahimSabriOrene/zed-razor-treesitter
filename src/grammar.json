@@ -1498,7 +1498,7 @@
     },
     "csharp_expression": {
       "type": "PATTERN",
-      "value": "[^)}\\n;]*"
+      "value": "[^\\n;){]+"
     },
     "csharp_member_access": {
       "type": "PATTERN",
