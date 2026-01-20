@@ -1,0 +1,32 @@
+==================
+Inject Directive
+==================
+@inject ILogger<Counter> Logger
+
+---
+
+(document
+  (razor_directive
+    (directive_inject
+      (type_reference
+        (type_arguments
+          (type_reference)))
+      (identifier)))
+  (text))
+
+==================
+Inject Directive with Generics
+==================
+@inject Dictionary<string, int> MyDict
+
+---
+
+(document
+  (razor_directive
+    (directive_inject
+      (type_reference
+        (type_arguments
+          (type_reference)
+          (type_reference)))
+      (identifier)))
+  (text))

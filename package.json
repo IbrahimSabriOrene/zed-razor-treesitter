@@ -1,0 +1,45 @@
+{
+    "name": "tree-sitter-razor",
+    "version": "1.0.0",
+    "description": "Tree-sitter grammar for ASP.NET Razor Pages and Blazor",
+    "main": "bindings/node",
+    "keywords": [
+        "tree-sitter",
+        "parser",
+        "razor",
+        "blazor",
+        "cshtml",
+        "asp.net",
+        "c-sharp"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "node-addon-api": "^7.0.0"
+    },
+    "devDependencies": {
+        "prebuildify": "^5.0.0",
+        "tree-sitter-cli": "^0.26.3"
+    },
+    "scripts": {
+        "build": "tree-sitter generate && node-gyp build",
+        "test": "tree-sitter test",
+        "parse": "tree-sitter parse"
+    },
+    "tree-sitter": [
+        {
+            "scope": "source.razor",
+            "file-types": [
+                "razor",
+                "cshtml"
+            ],
+            "injection-regex": "razor",
+            "highlights": "queries/highlights.scm",
+            "injections": "queries/injections.scm"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/tree-sitter-razor.git"
+    }
+}

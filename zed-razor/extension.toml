@@ -1,0 +1,13 @@
+id = "razor"
+name = "Razor & Blazor"
+description = "Enterprise-grade syntax highlighting for ASP.NET Razor Pages and Blazor components"
+version = "1.0.0"
+schema_version = 1
+authors = ["Your Name <your.email@company.com>"]
+repository = "https://github.com/yourusername/zed-razor"
+languages = ["languages/razor"]
+
+[grammars.razor]
+repository = ""
+rev = ""
+

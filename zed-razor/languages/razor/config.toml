@@ -1,0 +1,51 @@
+name = "Razor"
+grammar = "razor"
+path_suffixes = ["razor", "cshtml"]
+line_comments = ["@* ", " *@"]
+block_comment = ["@*", "*@"]
+autoclose_before = ";:.,=}])>"
+brackets = [
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "[", end = "]", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = true },
+  { start = "<", end = ">", close = false, newline = false },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
+  { start = "'", end = "'", close = true, newline = false, not_in = ["string"] },
+  { start = "@{", end = "}", close = true, newline = true },
+  { start = "@(", end = ")", close = true, newline = false },
+  { start = "<!--", end = "-->", close = true, newline = false },
+  { start = "@*", end = "*@", close = true, newline = false },
+]
+
+# Indentation configuration
+
+# Code intelligence settings
+[prettier]
+allowed = true
+plugins = []
+
+# File associations
+[file_types]
+cshtml = "razor"
+razor = "razor"
+
+# Syntax-specific settings
+[code_actions]
+# Enable automatic imports
+auto_imports = true
+
+# Formatting preferences
+[formatting]
+# Tab size for Razor files
+tab_size = 4
+# Use spaces instead of tabs
+use_spaces = true
+# Format on save
+format_on_save = true
+
+# Blazor-specific settings
+[blazor]
+# Enable Blazor component detection
+enable_component_detection = true
+# Auto-close Blazor component tags
+auto_close_tags = true

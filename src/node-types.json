@@ -1,0 +1,2405 @@
+[
+  {
+    "type": "attribute_value",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "quoted_attribute_value",
+          "named": true
+        },
+        {
+          "type": "unquoted_attribute_value",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "csharp_code",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "csharp_catch_declaration",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "csharp_code",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "csharp_code",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "csharp_for_declaration",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "csharp_foreach_declaration",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "csharp_member_access",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "csharp_using_declaration",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "directive_addTagHelper",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string_literal",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute_content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_code",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "csharp_code",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_functions",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "csharp_code",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_implements",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "type_reference",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_inherits",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "type_reference",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_inject",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "type_reference",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_layout",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_model",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "type_reference",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_namespace",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "namespace_reference",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_page",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "string_literal",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_preservewhitespace",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "directive_removeTagHelper",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string_literal",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_rendermode",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_section",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_tagHelperPrefix",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string_literal",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_typeparam",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "directive_using",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "namespace_reference",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "document",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "explicit_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "csharp_expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "html_attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute_name",
+          "named": true
+        },
+        {
+          "type": "attribute_value",
+          "named": true
+        },
+        {
+          "type": "razor_attribute_value",
+          "named": true
+        },
+        {
+          "type": "razor_directive_attribute",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "html_comment",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "html_comment_content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "html_element",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_end_tag",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "html_start_tag",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "html_end_tag",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "tag_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "html_self_closing_element",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "html_attribute",
+          "named": true
+        },
+        {
+          "type": "tag_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "html_start_tag",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "html_attribute",
+          "named": true
+        },
+        {
+          "type": "tag_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "implicit_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "csharp_member_access",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "parameter_list",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "quoted_attribute_value",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "attribute_content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_attribute_value",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_case",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_expression",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_catch",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_catch_declaration",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_comment",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "comment_content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_delegate",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_expression",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "parameter_list",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_directive",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "directive_addTagHelper",
+          "named": true
+        },
+        {
+          "type": "directive_attribute",
+          "named": true
+        },
+        {
+          "type": "directive_code",
+          "named": true
+        },
+        {
+          "type": "directive_functions",
+          "named": true
+        },
+        {
+          "type": "directive_implements",
+          "named": true
+        },
+        {
+          "type": "directive_inherits",
+          "named": true
+        },
+        {
+          "type": "directive_inject",
+          "named": true
+        },
+        {
+          "type": "directive_layout",
+          "named": true
+        },
+        {
+          "type": "directive_model",
+          "named": true
+        },
+        {
+          "type": "directive_namespace",
+          "named": true
+        },
+        {
+          "type": "directive_page",
+          "named": true
+        },
+        {
+          "type": "directive_preservewhitespace",
+          "named": true
+        },
+        {
+          "type": "directive_removeTagHelper",
+          "named": true
+        },
+        {
+          "type": "directive_rendermode",
+          "named": true
+        },
+        {
+          "type": "directive_section",
+          "named": true
+        },
+        {
+          "type": "directive_tagHelperPrefix",
+          "named": true
+        },
+        {
+          "type": "directive_typeparam",
+          "named": true
+        },
+        {
+          "type": "directive_using",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_directive_attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute_name",
+          "named": true
+        },
+        {
+          "type": "attribute_value",
+          "named": true
+        },
+        {
+          "type": "razor_attribute_value",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_do",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_expression",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_else",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_finally",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_for",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_for_declaration",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_foreach",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_foreach_declaration",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_if",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_expression",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_else",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_lock",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_expression",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_switch",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "csharp_expression",
+          "named": true
+        },
+        {
+          "type": "razor_case",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_try",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_catch",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_finally",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_using",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_using_declaration",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "razor_while",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "csharp_expression",
+          "named": true
+        },
+        {
+          "type": "explicit_expression",
+          "named": true
+        },
+        {
+          "type": "html_comment",
+          "named": true
+        },
+        {
+          "type": "html_element",
+          "named": true
+        },
+        {
+          "type": "html_self_closing_element",
+          "named": true
+        },
+        {
+          "type": "implicit_expression",
+          "named": true
+        },
+        {
+          "type": "razor_comment",
+          "named": true
+        },
+        {
+          "type": "razor_delegate",
+          "named": true
+        },
+        {
+          "type": "razor_directive",
+          "named": true
+        },
+        {
+          "type": "razor_do",
+          "named": true
+        },
+        {
+          "type": "razor_for",
+          "named": true
+        },
+        {
+          "type": "razor_foreach",
+          "named": true
+        },
+        {
+          "type": "razor_if",
+          "named": true
+        },
+        {
+          "type": "razor_lock",
+          "named": true
+        },
+        {
+          "type": "razor_switch",
+          "named": true
+        },
+        {
+          "type": "razor_text",
+          "named": true
+        },
+        {
+          "type": "razor_try",
+          "named": true
+        },
+        {
+          "type": "razor_using",
+          "named": true
+        },
+        {
+          "type": "razor_while",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "string_literal",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "type_arguments",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "type_reference",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "type_reference",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "type_arguments",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "'",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "*@",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-->",
+    "named": false
+  },
+  {
+    "type": "/>",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<!--",
+    "named": false
+  },
+  {
+    "type": "</",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "=>",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": "?",
+    "named": false
+  },
+  {
+    "type": "@",
+    "named": false
+  },
+  {
+    "type": "@(",
+    "named": false
+  },
+  {
+    "type": "@*",
+    "named": false
+  },
+  {
+    "type": "@addTagHelper",
+    "named": false
+  },
+  {
+    "type": "@attribute",
+    "named": false
+  },
+  {
+    "type": "@code",
+    "named": false
+  },
+  {
+    "type": "@do",
+    "named": false
+  },
+  {
+    "type": "@for",
+    "named": false
+  },
+  {
+    "type": "@foreach",
+    "named": false
+  },
+  {
+    "type": "@functions",
+    "named": false
+  },
+  {
+    "type": "@if",
+    "named": false
+  },
+  {
+    "type": "@implements",
+    "named": false
+  },
+  {
+    "type": "@inherits",
+    "named": false
+  },
+  {
+    "type": "@inject",
+    "named": false
+  },
+  {
+    "type": "@layout",
+    "named": false
+  },
+  {
+    "type": "@lock",
+    "named": false
+  },
+  {
+    "type": "@model",
+    "named": false
+  },
+  {
+    "type": "@namespace",
+    "named": false
+  },
+  {
+    "type": "@page",
+    "named": false
+  },
+  {
+    "type": "@preservewhitespace",
+    "named": false
+  },
+  {
+    "type": "@removeTagHelper",
+    "named": false
+  },
+  {
+    "type": "@rendermode",
+    "named": false
+  },
+  {
+    "type": "@section",
+    "named": false
+  },
+  {
+    "type": "@switch",
+    "named": false
+  },
+  {
+    "type": "@tagHelperPrefix",
+    "named": false
+  },
+  {
+    "type": "@try",
+    "named": false
+  },
+  {
+    "type": "@typeparam",
+    "named": false
+  },
+  {
+    "type": "@using",
+    "named": false
+  },
+  {
+    "type": "@while",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "[]",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "async",
+    "named": false
+  },
+  {
+    "type": "attribute_content",
+    "named": true
+  },
+  {
+    "type": "attribute_name",
+    "named": true
+  },
+  {
+    "type": "case",
+    "named": false
+  },
+  {
+    "type": "catch",
+    "named": false
+  },
+  {
+    "type": "comment_content",
+    "named": true
+  },
+  {
+    "type": "csharp_expression",
+    "named": true
+  },
+  {
+    "type": "else",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "finally",
+    "named": false
+  },
+  {
+    "type": "html_comment_content",
+    "named": true
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "namespace_reference",
+    "named": true
+  },
+  {
+    "type": "razor_text",
+    "named": true
+  },
+  {
+    "type": "tag_name",
+    "named": true
+  },
+  {
+    "type": "text",
+    "named": true
+  },
+  {
+    "type": "true",
+    "named": false
+  },
+  {
+    "type": "unquoted_attribute_value",
+    "named": true
+  },
+  {
+    "type": "while",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]
