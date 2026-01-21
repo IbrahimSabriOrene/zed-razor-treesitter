@@ -1,6 +1,6 @@
 # Tree-sitter Razor
 
-> **Note:** This project made with AI. It does work. Use with caution. I quickly build this project (in 1 hour) just for using ZED with Blazor-Razor pages. It lacks structure, coding standarts, and every other professional aspect. Just a AI slop
+> **Note:** This project made with AI. It does work. Use with caution. I quickly build this project (in 1 hour) just for using ZED with Blazor-Razor pages. It lacks structure, coding standarts, and every other professional aspect. Just an AI slop
 
 
 
