@@ -32,6 +32,10 @@ This grammar provides robust parsing for the Razor syntax, including:
 - C Compiler (MSVC on Windows, GCC/Clang on Linux/macOS)
 - Tree-sitter CLI (`npm install -g tree-sitter-cli`)
 
+
+Linux setup by [kawa0710](https://github.com/kawa0710), 
+[issue-3884643669](https://github.com/IbrahimSabriOrene/zed-razor-treesitter/issues/1#issue-3884643669)
+
 ### Setup
 
 1.  Clone the repository:
