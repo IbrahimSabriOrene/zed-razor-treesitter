@@ -1,48 +1,6 @@
-# Rust artifacts
-target/
+# Zed clones the grammar source here at install time; never commit it.
+zed-razor/grammars/
 
-# Node artifacts
-build/
-prebuilds/
 node_modules/
-
-# Swift artifacts
-.build/
-
-# Go artifacts
-_obj/
-
-# Python artifacts
-.venv/
-dist/
-*.egg-info
-*.whl
-
-# C artifacts
-*.a
-*.so
-*.so.*
-*.dylib
-*.dll
-*.pc
-*.exp
-*.lib
-
-# Zig artifacts
-.zig-cache/
-zig-cache/
-zig-out/
-
-# Example dirs
-/examples/*/
-
-# Grammar volatiles
+build/
 *.wasm
-*.obj
-*.o
-
-# Archives
-*.tar.gz
-*.tgz
-*.zip
-*.jar
