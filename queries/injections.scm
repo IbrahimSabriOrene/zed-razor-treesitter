@@ -3,50 +3,50 @@
 
 ; Code blocks
 ((csharp_code) @injection.content
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ; Explicit expressions
 ((csharp_expression) @injection.content
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ; Member access expressions
 ((csharp_member_access) @injection.content
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ; Control structure conditions
 ((razor_if
   (csharp_expression) @injection.content)
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ((razor_while
   (csharp_expression) @injection.content)
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ((razor_do
   (csharp_expression) @injection.content)
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ((razor_switch
   (csharp_expression) @injection.content)
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ; Loop declarations
 ((csharp_foreach_declaration) @injection.content
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ((csharp_for_declaration) @injection.content
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ; Exception handling
 ((csharp_catch_declaration) @injection.content
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ((csharp_using_declaration) @injection.content
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ; Parameter lists
 ((parameter_list) @injection.content
-  (#set! injection.language "csharp"))
+  (#set! injection.language "c#"))
 
 ; ==================== CSS INJECTION ====================
 ; Inject CSS into style tags
