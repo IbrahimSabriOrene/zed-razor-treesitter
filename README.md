@@ -80,19 +80,34 @@ This repository includes a local extension setup for [Zed](https://zed.dev).
 
 ### Local Development Setup
 
-1.  Navigate to the `zed-razor` directory.
-2.  Ensure you have a compiled WASM grammar:
-    ```bash
-    tree-sitter build --wasm
-    copy tree-sitter-razor.wasm zed-razor\grammars\razor.wasm
-    ```
-3.  Open Zed and install the extension as a "Dev Extension" pointing to the `zed-razor` folder.
+1.  Clone this repository.
+2.  Install a C# extension in Zed (`zed: extensions` -> "C#"). Zed ships no C#
+    grammar by default, and without it the `@code` blocks stay unhighlighted.
+3.  Run `zed: install dev extension` and point it at the **`zed-razor` folder**,
+    not the repository root.
+4.  Open a `.razor` or `.cshtml` file.
+
+You do **not** need to build a `.wasm` yourself. `extension.toml` declares the
+grammar via `[grammars.razor]`; Zed clones this repository at the pinned `rev`
+and compiles `src/parser.c` + `src/scanner.c` to wasm on install.
+
+If highlighting does not appear, check `zed: open log` for a grammar build or
+fetch error.
+
+### Modifying the grammar
+
+After editing `grammar.js`, run `tree-sitter generate`, commit the regenerated
+`src/`, push, and bump `rev` in `zed-razor/extension.toml` to the new commit
+SHA. Zed fetches the grammar by SHA, so an unpushed local commit will not
+resolve.
 
 ### Extension Structure
 
-- `zed-razor/extension.toml`: Extension manifest.
+- `zed-razor/extension.toml`: Extension manifest (declares grammar repo + rev).
 - `zed-razor/languages/razor/`: Language configuration and queries.
-- `zed-razor/grammars/razor.wasm`: Compiled Tree-sitter grammar.
+
+Note: `zed-razor/languages/razor/*.scm` are copies of the files in `queries/`.
+Keep both in sync when editing queries.
 
 ## Project Structure
 
