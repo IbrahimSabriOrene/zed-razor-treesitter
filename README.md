@@ -1,5 +1,7 @@
 # Tree-sitter Razor
 
+# Hello, I won't be able to continue working on this project due to an increased workload at my primary job. So if anyone would like to continue on this project let me know via mail (ibrahimsabriorene@protonmail.com) or linkedln https://www.linkedin.com/in/ibrahimorene/
+
 <strong><span style="color:red">Let me know if you want upgrades.</span></strong>
 
 > **Note:** This project made with AI. It does work. Use with caution. I quickly build this project (in 1 hour) just for using ZED with Blazor-Razor pages. It lacks structure, coding standarts, and every other professional aspect. Just an AI slop
